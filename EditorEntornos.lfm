@@ -415,7 +415,6 @@ object frmEditorEntornos: TfrmEditorEntornos
     end
   end
   object imlPrincipal: TImageList
-    BkColor = clForeground
     left = 152
     top = 40
     Bitmap = {
@@ -1642,7 +1641,6 @@ object frmEditorEntornos: TfrmEditorEntornos
     end
   end
   object imlElementos: TImageList
-    BkColor = clForeground
     left = 104
     top = 96
     Bitmap = {
@@ -2149,19 +2147,15 @@ object frmEditorEntornos: TfrmEditorEntornos
     top = 144
   end
   object odlAgentes: TOpenDialog
-    Width = 503
-    Height = 528
     Filter = 'Galatea Set of Agents|*.agl'
     Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
     left = 152
     top = 144
   end
   object odlEscenario: TOpenDialog
-    Width = 503
-    Height = 528
     Filter = 'Galatea Stage|*.egl'
     Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
     left = 192
     top = 144
   end
-end
+end
