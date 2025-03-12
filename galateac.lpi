@@ -1,44 +1,42 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="12"/>
     <General>
       <Flags>
         <LRSInOutputDirectory Value="False"/>
+        <CompatibilityMode Value="True"/>
       </Flags>
-      <MainUnit Value="0"/>
       <Title Value="galateac"/>
-      <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <IgnoreBinaries Value="False"/>
-      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
-      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
       <local>
-        <FormatVersion Value="1"/>
         <CommandLineParams Value="-f Environments/JonssonPruebas.ngl -c 10"/>
-        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="-f Environments/JonssonPruebas.ngl -c 10"/>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
     </RunParams>
     <Units Count="18">
       <Unit0>
         <Filename Value="galateac.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="galateac"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="155"/>
-        <CursorPos X="39" Y="171"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="41" Y="5"/>
         <UsageCount Value="54"/>
         <Bookmarks Count="1">
           <Item0 X="18" Y="170" ID="1"/>
@@ -58,109 +56,87 @@
         <ComponentName Value="frmPrincipal"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Principal"/>
-        <TopLine Value="1"/>
         <CursorPos X="17" Y="3"/>
         <UsageCount Value="14"/>
       </Unit2>
       <Unit3>
         <Filename Value="Proyectos.pas"/>
-        <UnitName Value="Proyectos"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="91"/>
-        <CursorPos X="1" Y="113"/>
+        <CursorPos Y="113"/>
         <UsageCount Value="25"/>
         <Bookmarks Count="2">
-          <Item0 X="12" Y="217" ID="0"/>
+          <Item0 X="12" Y="217"/>
           <Item1 X="24" Y="405" ID="5"/>
         </Bookmarks>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="Escenarios.pas"/>
-        <UnitName Value="Escenarios"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="122"/>
-        <CursorPos X="1" Y="139"/>
+        <CursorPos Y="139"/>
         <UsageCount Value="10"/>
       </Unit4>
       <Unit5>
         <Filename Value="Sustratos.pas"/>
-        <UnitName Value="Sustratos"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="58"/>
-        <CursorPos X="1" Y="73"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="22"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="Entornos.pas"/>
-        <UnitName Value="Entornos"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="119"/>
-        <CursorPos X="1" Y="136"/>
+        <EditorIndex Value="1"/>
         <UsageCount Value="13"/>
+        <Loaded Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="JuegoAgentes.pas"/>
-        <UnitName Value="JuegoAgentes"/>
         <TopLine Value="1276"/>
-        <CursorPos X="1" Y="1291"/>
+        <CursorPos Y="1291"/>
         <UsageCount Value="16"/>
       </Unit7>
       <Unit8>
         <Filename Value="Comunes.pas"/>
-        <UnitName Value="Comunes"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="354"/>
-        <CursorPos X="1" Y="410"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="229"/>
+        <CursorPos X="53" Y="248"/>
         <UsageCount Value="18"/>
+        <Loaded Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="Elementos.pas"/>
-        <UnitName Value="Elementos"/>
-        <TopLine Value="117"/>
-        <CursorPos X="63" Y="124"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="79"/>
         <UsageCount Value="16"/>
+        <Loaded Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="Agentes.pas"/>
-        <UnitName Value="Agentes"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="812"/>
-        <CursorPos X="3" Y="814"/>
+        <EditorIndex Value="5"/>
         <UsageCount Value="20"/>
         <Bookmarks Count="1">
           <Item0 X="19" Y="1180" ID="2"/>
         </Bookmarks>
+        <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="FuncElementosCadenas.pas"/>
-        <UnitName Value="FuncElementosCadenas"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="8"/>
       </Unit11>
       <Unit12>
         <Filename Value="Mediadores.pas"/>
-        <UnitName Value="Mediadores"/>
         <TopLine Value="110"/>
         <CursorPos X="3" Y="126"/>
         <UsageCount Value="16"/>
       </Unit12>
       <Unit13>
         <Filename Value="Cruzadores.pas"/>
-        <UnitName Value="Cruzadores"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="71"/>
         <CursorPos X="14" Y="80"/>
         <UsageCount Value="13"/>
       </Unit13>
       <Unit14>
         <Filename Value="ArchivosSalida.pas"/>
-        <UnitName Value="ArchivosSalida"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="0"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="27"/>
         <CursorPos X="14" Y="42"/>
         <UsageCount Value="10"/>
@@ -168,16 +144,14 @@
       </Unit14>
       <Unit15>
         <Filename Value="Carruseles.pas"/>
-        <UnitName Value="Carruseles"/>
         <TopLine Value="56"/>
-        <CursorPos X="1" Y="89"/>
+        <CursorPos Y="89"/>
         <UsageCount Value="9"/>
       </Unit15>
       <Unit16>
         <Filename Value="Calculate.pas"/>
-        <UnitName Value="Calculate"/>
         <TopLine Value="344"/>
-        <CursorPos X="1" Y="359"/>
+        <CursorPos Y="359"/>
         <UsageCount Value="16"/>
       </Unit16>
       <Unit17>
@@ -188,14 +162,14 @@
         <UsageCount Value="9"/>
       </Unit17>
     </Units>
-    <JumpHistory Count="10" HistoryIndex="9">
+    <JumpHistory Count="15" HistoryIndex="14">
       <Position1>
         <Filename Value="galateac.lpr"/>
-        <Caret Line="188" Column="1" TopLine="173"/>
+        <Caret Line="188" TopLine="173"/>
       </Position1>
       <Position2>
         <Filename Value="galateac.lpr"/>
-        <Caret Line="94" Column="1" TopLine="79"/>
+        <Caret Line="94" TopLine="79"/>
       </Position2>
       <Position3>
         <Filename Value="galateac.lpr"/>
@@ -203,15 +177,15 @@
       </Position3>
       <Position4>
         <Filename Value="galateac.lpr"/>
-        <Caret Line="93" Column="1" TopLine="79"/>
+        <Caret Line="93" TopLine="79"/>
       </Position4>
       <Position5>
         <Filename Value="galateac.lpr"/>
-        <Caret Line="94" Column="1" TopLine="79"/>
+        <Caret Line="94" TopLine="79"/>
       </Position5>
       <Position6>
         <Filename Value="galateac.lpr"/>
-        <Caret Line="95" Column="1" TopLine="41"/>
+        <Caret Line="95" TopLine="41"/>
       </Position6>
       <Position7>
         <Filename Value="galateac.lpr"/>
@@ -229,10 +203,28 @@
         <Filename Value="ArchivosSalida.pas"/>
         <Caret Line="59" Column="28" TopLine="42"/>
       </Position10>
+      <Position11>
+        <Filename Value="galateac.lpr"/>
+        <Caret Line="161" Column="38"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Agentes.pas"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="113"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Entornos.pas"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Sustratos.pas"/>
+        <Caret TopLine="22"/>
+      </Position15>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <Parsing>
       <SyntaxOptions>
         <CStyleOperator Value="False"/>
@@ -241,13 +233,10 @@
     </Parsing>
     <Linking>
       <Debugging>
-        <GenerateDebugInfo Value="True"/>
+        <DebugInfoType Value="dsStabs"/>
         <UseExternalDbgSyms Value="True"/>
       </Debugging>
     </Linking>
-    <Other>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3" IgnoreAll="True">
