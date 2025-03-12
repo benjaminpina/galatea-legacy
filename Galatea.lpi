@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="10"/>
+    <Version Value="12"/>
     <General>
       <Flags>
         <LRSInOutputDirectory Value="False"/>
+        <CompatibilityMode Value="True"/>
       </Flags>
-      <MainUnit Value="0"/>
     </General>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <IgnoreBinaries Value="False"/>
-      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
-      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
       <local>
-        <FormatVersion Value="1"/>
-        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="22">
+    <Units Count="24">
       <Unit0>
         <Filename Value="Galatea.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit0>
       <Unit1>
         <Filename Value="Principal.pas"/>
@@ -44,15 +45,14 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="1293"/>
-        <CursorPos X="2" Y="1328"/>
-        <UsageCount Value="39"/>
+        <TopLine Value="1345"/>
+        <CursorPos X="32" Y="1357"/>
+        <UsageCount Value="40"/>
         <Bookmarks Count="2">
           <Item0 X="3" Y="436" ID="1"/>
           <Item1 X="3" Y="392" ID="2"/>
         </Bookmarks>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="OpcionesProyecto.pas"/>
@@ -60,9 +60,10 @@
         <ComponentName Value="frmOpcionesProyecto"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos X="20" Y="38"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit2>
       <Unit3>
         <Filename Value="SeleccionaEntorno.pas"/>
@@ -71,7 +72,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="3" Y="10"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit3>
       <Unit4>
         <Filename Value="NuevoProyecto.pas"/>
@@ -80,7 +81,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="3" Y="8"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit4>
       <Unit5>
         <Filename Value="Generales.pas"/>
@@ -90,7 +91,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="71"/>
         <CursorPos X="14" Y="83"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit5>
       <Unit6>
         <Filename Value="BuscarCarpeta.pas"/>
@@ -99,15 +100,14 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="31" Y="10"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit6>
       <Unit7>
         <Filename Value="Proyectos.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="89"/>
         <CursorPos X="5" Y="96"/>
         <UsageCount Value="16"/>
-        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="Escenarios.pas"/>
@@ -123,19 +123,18 @@
       </Unit9>
       <Unit10>
         <Filename Value="Comunes.pas"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="148"/>
-        <CursorPos X="15" Y="84"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="18" Y="93"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="Sustratos.pas"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="25"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
         <CursorPos X="28" Y="57"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit11>
       <Unit12>
         <Filename Value="../../../usr/lib/lazarus/lcl/graphics.pp"/>
@@ -161,10 +160,10 @@
       </Unit15>
       <Unit16>
         <Filename Value="ArchivosSalida.pas"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
         <CursorPos X="15" Y="63"/>
         <UsageCount Value="13"/>
-        <Loaded Value="True"/>
       </Unit16>
       <Unit17>
         <Filename Value="Elementos.pas"/>
@@ -191,102 +190,41 @@
       </Unit20>
       <Unit21>
         <Filename Value="FuncElementosCadenas.pas"/>
-        <EditorIndex Value="5"/>
-        <TopLine Value="43"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="198"/>
         <CursorPos X="3" Y="226"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit21>
+      <Unit22>
+        <Filename Value="Principal.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1466"/>
+        <CursorPos X="32" Y="1478"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="/usr/share/lazarus/3.2.0/lcl/lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3156"/>
+        <CursorPos Y="3164"/>
+        <UsageCount Value="10"/>
+      </Unit23>
     </Units>
-    <JumpHistory Count="22" HistoryIndex="21">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="129" Column="13" TopLine="110"/>
-      </Position1>
-      <Position2>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="132" Column="12" TopLine="113"/>
-      </Position2>
-      <Position3>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="123" Column="3" TopLine="116"/>
-      </Position3>
-      <Position4>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="53" Column="22" TopLine="34"/>
-      </Position4>
-      <Position5>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="59" Column="16" TopLine="34"/>
-      </Position5>
-      <Position6>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="24" Column="5" TopLine="8"/>
-      </Position6>
-      <Position7>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="46" Column="5" TopLine="30"/>
-      </Position7>
-      <Position8>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="73" Column="7" TopLine="66"/>
-      </Position8>
-      <Position9>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="78" Column="3" TopLine="76"/>
-      </Position9>
-      <Position10>
-        <Filename Value="ArchivosSalida.pas"/>
-        <Caret Line="63" Column="15" TopLine="57"/>
-      </Position10>
-      <Position11>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="97" Column="3" TopLine="89"/>
-      </Position11>
-      <Position12>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="51" Column="17" TopLine="35"/>
-      </Position12>
-      <Position13>
         <Filename Value="Principal.pas"/>
         <Caret Line="416" Column="27" TopLine="392"/>
-      </Position13>
-      <Position14>
+      </Position1>
+      <Position2>
         <Filename Value="Principal.pas"/>
         <Caret Line="1247" Column="14" TopLine="1225"/>
-      </Position14>
-      <Position15>
+      </Position2>
+      <Position3>
         <Filename Value="Principal.pas"/>
         <Caret Line="1339" Column="49" TopLine="1337"/>
-      </Position15>
-      <Position16>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="36" Column="6" TopLine="24"/>
-      </Position16>
-      <Position17>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="113" Column="44" TopLine="99"/>
-      </Position17>
-      <Position18>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="115" Column="7" TopLine="99"/>
-      </Position18>
-      <Position19>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="155" Column="7" TopLine="139"/>
-      </Position19>
-      <Position20>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="179" Column="7" TopLine="163"/>
-      </Position20>
-      <Position21>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="180" Column="7" TopLine="163"/>
-      </Position21>
-      <Position22>
-        <Filename Value="Proyectos.pas"/>
-        <Caret Line="239" Column="27" TopLine="224"/>
-      </Position22>
+      </Position3>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -299,7 +237,7 @@
     </Parsing>
     <Linking>
       <Debugging>
-        <DebugInfoType Value="dsStabs"/>
+        <DebugInfoType Value="dsDwarf3"/>
       </Debugging>
     </Linking>
   </CompilerOptions>
