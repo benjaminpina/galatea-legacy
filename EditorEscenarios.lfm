@@ -1241,7 +1241,6 @@ object frmEditorEscenarios: TfrmEditorEscenarios
     top = 40
   end
   object imlPrincipal: TImageList
-    BkColor = clForeground
     left = 256
     top = 40
     Bitmap = {
@@ -1756,7 +1755,6 @@ object frmEditorEscenarios: TfrmEditorEscenarios
     end
   end
   object imlDibujo: TImageList
-    BkColor = clForeground
     left = 96
     top = 80
     Bitmap = {
@@ -2020,7 +2018,6 @@ object frmEditorEscenarios: TfrmEditorEscenarios
     }
   end
   object imlSustrato: TImageList
-    BkColor = clForeground
     left = 96
     top = 120
     Bitmap = {
