@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="10"/>
+    <Version Value="12"/>
     <General>
       <Flags>
         <LRSInOutputDirectory Value="False"/>
+        <CompatibilityMode Value="True"/>
       </Flags>
-      <MainUnit Value="0"/>
-      <ActiveWindowIndexAtStart Value="-1"/>
     </General>
     <VersionInfo>
       <Language Value=""/>
       <CharSet Value=""/>
-      <StringTable ProductVersion=""/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -20,22 +18,26 @@
     <PublishOptions>
       <Version Value="2"/>
       <DestinationDirectory Value="$(ProjPath)/published/"/>
-      <IgnoreBinaries Value="False"/>
-      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
-      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
       <local>
-        <FormatVersion Value="1"/>
-        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="8">
+    <Units Count="10">
       <Unit0>
         <Filename Value="EdSustGlt.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -48,10 +50,11 @@
         <ComponentName Value="frmEditorSustratos"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="509"/>
-        <CursorPos X="54" Y="532"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="510"/>
+        <CursorPos X="48" Y="517"/>
         <UsageCount Value="24"/>
+        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="EditarSimple.pas"/>
@@ -59,8 +62,10 @@
         <ComponentName Value="frmEditarSimple"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="3" Y="8"/>
         <UsageCount Value="24"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="EditarMixto.pas"/>
@@ -68,8 +73,10 @@
         <ComponentName Value="frmEditarMixto"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
         <CursorPos X="3" Y="8"/>
         <UsageCount Value="24"/>
+        <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="AcercaEdSs.pas"/>
@@ -90,7 +97,6 @@
       </Unit5>
       <Unit6>
         <Filename Value="Sustratos.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="119"/>
         <CursorPos Y="142"/>
@@ -103,6 +109,22 @@
         <CursorPos X="46" Y="11"/>
         <UsageCount Value="10"/>
       </Unit7>
+      <Unit8>
+        <Filename Value="/usr/share/lazarus/3.2.0/lcl/lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3150"/>
+        <CursorPos X="27" Y="3159"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="EditorSustratos.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="343"/>
+        <CursorPos X="32" Y="366"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit9>
     </Units>
     <JumpHistory HistoryIndex="-1"/>
   </ProjectOptions>
@@ -113,6 +135,11 @@
         <UseAnsiStrings Value="False"/>
       </SyntaxOptions>
     </Parsing>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+    </Linking>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="2">

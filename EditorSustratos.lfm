@@ -364,7 +364,6 @@ object frmEditorSustratos: TfrmEditorSustratos
     end
   end
   object ImageList1: TImageList
-    BkColor = clForeground
     left = 104
     top = 224
     Bitmap = {
