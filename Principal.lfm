@@ -1,13 +1,14 @@
 object frmPrincipal: TfrmPrincipal
   Left = 303
-  Height = 450
+  Height = 534
   Top = 361
-  Width = 747
+  Width = 1530
   ActiveControl = edtRetardo
   Caption = 'Galatea'
-  ClientHeight = 450
-  ClientWidth = 747
-  Font.Height = -11
+  ClientHeight = 534
+  ClientWidth = 1530
+  DesignTimePPI = 192
+  Font.Height = -22
   Font.Name = 'MS Sans Serif'
   Menu = MainMenu1
   OnClose = FormClose
@@ -17,7 +18,7 @@ object frmPrincipal: TfrmPrincipal
   OnResize = FormResize
   Position = poDefault
   ShowHint = True
-  LCLVersion = '3.2.0.0'
+  LCLVersion = '3.8.0.0'
   object ptbEntorno: TPaintBox
     AnchorSideLeft.Control = pnlStatus
     AnchorSideLeft.Side = asrBottom
@@ -25,31 +26,31 @@ object frmPrincipal: TfrmPrincipal
     AnchorSideTop.Side = asrBottom
     AnchorSideRight.Control = scbVertical
     AnchorSideBottom.Control = scbHorizontal
-    Left = 177
-    Height = 385
-    Top = 25
-    Width = 553
+    Left = 354
+    Height = 438
+    Top = 50
+    Width = 1163
     Anchors = [akTop, akLeft, akRight, akBottom]
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 23
-    Top = 427
-    Width = 747
+    Height = 33
+    Top = 501
+    Width = 1530
     Panels = <    
       item
-        Width = 400
+        Width = 800
       end    
       item
-        Width = 50
+        Width = 100
       end>
   end
   object ToolBar1: TToolBar
     Cursor = crHandPoint
     Left = 0
-    Height = 25
+    Height = 50
     Top = 0
-    Width = 747
+    Width = 1530
     Caption = 'ToolBar1'
     Images = ImageList1
     TabOrder = 0
@@ -59,178 +60,178 @@ object frmPrincipal: TfrmPrincipal
       Action = actNuevo
     end
     object ToolButton2: TToolButton
-      Left = 24
+      Left = 47
       Top = 2
       Action = actAbrir
     end
     object ToolButton3: TToolButton
-      Left = 47
+      Left = 93
       Top = 2
       Action = actGuardar
     end
     object ToolButton4: TToolButton
-      Left = 70
-      Height = 22
+      Left = 139
+      Height = 44
       Top = 2
       Caption = 'ToolButton4'
       ImageIndex = 3
       Style = tbsSeparator
     end
     object tlbInicio: TToolButton
-      Left = 78
+      Left = 155
       Top = 2
       Action = actIniciar
     end
     object tlbPausa: TToolButton
-      Left = 101
+      Left = 201
       Top = 2
       Action = actPausa
     end
     object tlbPaso: TToolButton
-      Left = 124
+      Left = 247
       Top = 2
       Action = actPaso
     end
     object tlbAlto: TToolButton
-      Left = 147
+      Left = 293
       Top = 2
       Action = actDetener
     end
     object ToolButton9: TToolButton
-      Left = 170
-      Height = 22
+      Left = 339
+      Height = 44
       Top = 2
       Caption = 'ToolButton9'
       ImageIndex = 7
       Style = tbsSeparator
     end
     object ToolButton8: TToolButton
-      Left = 266
-      Height = 22
+      Left = 497
+      Height = 44
       Top = 2
       Caption = 'ToolButton8'
       ImageIndex = 6
       Style = tbsSeparator
     end
     object ToolButton18: TToolButton
-      Left = 274
+      Left = 547
       Top = 2
       Action = actIncZoom
     end
     object ToolButton19: TToolButton
-      Left = 297
+      Left = 593
       Top = 2
       Action = actDecZoom
     end
     object ToolButton21: TToolButton
-      Left = 320
-      Height = 22
+      Left = 639
+      Height = 44
       Top = 2
       Caption = 'ToolButton21'
       ImageIndex = 9
       Style = tbsSeparator
     end
     object tlbVisualizar: TToolButton
-      Left = 328
+      Left = 655
       Top = 2
       Action = actNoDesplegar
     end
     object ToolButton23: TToolButton
-      Left = 351
-      Height = 22
+      Left = 701
+      Height = 44
       Top = 2
       Caption = 'ToolButton23'
       ImageIndex = 6
       Style = tbsSeparator
     end
     object ToolButton20: TToolButton
-      Left = 432
-      Height = 22
+      Left = 863
+      Height = 44
       Top = 2
       Caption = 'ToolButton20'
       ImageIndex = 8
       Style = tbsSeparator
     end
     object ToolButton7: TToolButton
-      Left = 440
+      Left = 879
       Top = 2
       Action = actEntornos
     end
     object ToolButton10: TToolButton
-      Left = 463
+      Left = 925
       Top = 2
       Action = actEditor
     end
     object ToolButton6: TToolButton
-      Left = 486
+      Left = 971
       Top = 2
       Action = actAgentes
     end
     object ToolButton1: TToolButton
-      Left = 509
+      Left = 1017
       Top = 2
       Action = actSustratos
     end
     object ToolButton13: TToolButton
-      Left = 532
+      Left = 1063
       Top = 2
       Action = actAnalizador
     end
     object ToolButton16: TToolButton
-      Left = 555
-      Height = 22
+      Left = 1109
+      Height = 44
       Top = 2
       Caption = 'ToolButton16'
       ImageIndex = 12
       Style = tbsSeparator
     end
     object ToolButton25: TToolButton
-      Left = 563
+      Left = 1125
       Top = 2
       Action = actExpEntorno
     end
     object ToolButton26: TToolButton
-      Left = 586
-      Height = 22
+      Left = 1171
+      Height = 44
       Top = 2
       Caption = 'ToolButton26'
       ImageIndex = 7
       Style = tbsSeparator
     end
     object ToolButton15: TToolButton
-      Left = 594
+      Left = 1187
       Top = 2
       Action = actAyuda
     end
     object ToolButton14: TToolButton
-      Left = 617
-      Height = 22
+      Left = 1233
+      Height = 44
       Top = 2
       Caption = 'ToolButton14'
       ImageIndex = 6
       Style = tbsSeparator
     end
     object ToolButton17: TToolButton
-      Left = 625
+      Left = 1249
       Top = 2
       Action = actSalir
     end
     object edtRetardo: TEdit
-      Left = 178
-      Height = 36
+      Left = 355
+      Height = 43
       Hint = 'Delay|Specifies the time (in miliconds) of delay between cycle and cycle'
       Top = 2
-      Width = 71
+      Width = 142
       TabOrder = 1
       Text = '0'
       OnChange = edtRetardoChange
       OnKeyPress = edtRetardoKeyPress
     end
     object updRetardo: TUpDown
-      Left = 249
-      Height = 22
+      Left = 513
+      Height = 44
       Top = 2
-      Width = 17
+      Width = 34
       Associate = edtRetardo
       Increment = 10
       Max = 5000
@@ -240,11 +241,11 @@ object frmPrincipal: TfrmPrincipal
       Thousands = False
     end
     object cmbEscala: TComboBox
-      Left = 359
-      Height = 32
+      Left = 717
+      Height = 41
       Hint = 'Zoom|Specifies the zoom factor'
       Top = 2
-      Width = 73
+      Width = 146
       ItemHeight = 0
       ItemIndex = 4
       Items.Strings = (
@@ -271,10 +272,10 @@ object frmPrincipal: TfrmPrincipal
     AnchorSideLeft.Side = asrBottom
     AnchorSideRight.Control = scbVertical
     AnchorSideBottom.Control = StatusBar1
-    Left = 177
-    Height = 17
-    Top = 410
-    Width = 553
+    Left = 354
+    Height = 13
+    Top = 488
+    Width = 1163
     Anchors = [akLeft, akRight, akBottom]
     PageSize = 0
     TabOrder = 1
@@ -287,10 +288,10 @@ object frmPrincipal: TfrmPrincipal
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = scbHorizontal
-    Left = 730
-    Height = 385
-    Top = 25
-    Width = 17
+    Left = 1517
+    Height = 438
+    Top = 50
+    Width = 13
     Anchors = [akTop, akRight, akBottom]
     Kind = sbVertical
     PageSize = 0
@@ -300,28 +301,28 @@ object frmPrincipal: TfrmPrincipal
   end
   object pnlStatus: TPanel
     Left = 0
-    Height = 402
-    Top = 25
-    Width = 177
+    Height = 451
+    Top = 50
+    Width = 354
     Align = alLeft
-    ClientHeight = 402
-    ClientWidth = 177
+    ClientHeight = 451
+    ClientWidth = 354
     TabOrder = 3
     object btnInformar: TBitBtn
-      Left = 32
-      Height = 25
-      Top = 312
-      Width = 113
+      Left = 64
+      Height = 50
+      Top = 624
+      Width = 226
       Action = actInformar
       Images = ImageList1
       ImageIndex = 22
       TabOrder = 0
     end
     object memInfo: TMemo
-      Left = 6
-      Height = 296
-      Top = 7
-      Width = 162
+      Left = 12
+      Height = 592
+      Top = 14
+      Width = 324
       Lines.Strings = (
         'Memo1'
       )
@@ -331,8 +332,8 @@ object frmPrincipal: TfrmPrincipal
   end
   object ActionList1: TActionList
     Images = ImageList1
-    Left = 224
-    Top = 48
+    Left = 448
+    Top = 96
     object actNuevo: TAction
       Caption = '&New project'
       Enabled = False
@@ -490,8 +491,8 @@ object frmPrincipal: TfrmPrincipal
   end
   object MainMenu1: TMainMenu
     Images = ImageList1
-    Left = 264
-    Top = 48
+    Left = 528
+    Top = 96
     object Proyecto1: TMenuItem
       Caption = '&File'
       object Nuevo1: TMenuItem
@@ -649,20 +650,20 @@ object frmPrincipal: TfrmPrincipal
     Title = 'Open Environment'
     Filter = 'Galatea environment|*.ngl'
     Options = [ofHideReadOnly, ofPathMustExist, ofFileMustExist, ofEnableSizing]
-    Left = 344
-    Top = 48
+    Left = 688
+    Top = 96
   end
   object dlgGuardarProyecto: TSaveDialog
     Title = 'Guardar Proyecto como...'
     Filter = 'Proyecto de Galatea (*.pgl)|*.pgl'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
-    Left = 384
-    Top = 48
+    Left = 768
+    Top = 96
   end
   object ImageList1: TImageList
     BkColor = clForm
-    Left = 424
-    Top = 48
+    Left = 848
+    Top = 96
     Bitmap = {
       4C7A170000001000000010000000020600000000000078DAED5C5B72EB300865
       DFF9C9C63AD39D716BC77200F1949CEBA6B13A9A34920E20047A99181011ACE4
@@ -719,7 +720,7 @@ object frmPrincipal: TfrmPrincipal
     Title = 'Save Galatea Environment'
     Filter = 'Galatea Environment (*.ngl)|*.ngl'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
-    Left = 320
-    Top = 120
+    Left = 640
+    Top = 240
   end
 end

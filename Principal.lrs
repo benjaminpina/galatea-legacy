@@ -1,181 +1,182 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TfrmPrincipal','FORMDATA',[
-  'TPF0'#13'TfrmPrincipal'#12'frmPrincipal'#4'Left'#3'/'#1#6'Height'#3#194#1#3
-  +'Top'#3'i'#1#5'Width'#3#235#2#13'ActiveControl'#7#10'edtRetardo'#7'Caption'#6
-  +#7'Galatea'#12'ClientHeight'#3#194#1#11'ClientWidth'#3#235#2#11'Font.Height'
-  +#2#245#9'Font.Name'#6#13'MS Sans Serif'#4'Menu'#7#9'MainMenu1'#7'OnClose'#7#9
-  +'FormClose'#12'OnCloseQuery'#7#14'FormCloseQuery'#8'OnCreate'#7#10'FormCreat'
-  +'e'#7'OnPaint'#7#9'FormPaint'#8'OnResize'#7#10'FormResize'#8'Position'#7#9'p'
-  +'oDefault'#8'ShowHint'#9#10'LCLVersion'#6#7'3.2.0.0'#0#9'TPaintBox'#10'ptbEn'
-  +'torno'#22'AnchorSideLeft.Control'#7#9'pnlStatus'#19'AnchorSideLeft.Side'#7#9
-  +'asrBottom'#21'AnchorSideTop.Control'#7#8'ToolBar1'#18'AnchorSideTop.Side'#7
-  +#9'asrBottom'#23'AnchorSideRight.Control'#7#11'scbVertical'#24'AnchorSideBot'
-  +'tom.Control'#7#13'scbHorizontal'#4'Left'#3#177#0#6'Height'#3#129#1#3'Top'#2
-  +#25#5'Width'#3')'#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0
-  +#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'#2#0#6'Height'#2#23#3'Top'#3#171#1
-  +#5'Width'#3#235#2#6'Panels'#14#1#5'Width'#3#144#1#0#1#5'Width'#2'2'#0#0#0#0#8
-  +'TToolBar'#8'ToolBar1'#6'Cursor'#7#11'crHandPoint'#4'Left'#2#0#6'Height'#2#25
-  +#3'Top'#2#0#5'Width'#3#235#2#7'Caption'#6#8'ToolBar1'#6'Images'#7#10'ImageLi'
-  +'st1'#8'TabOrder'#2#0#0#11'TToolButton'#11'ToolButton5'#4'Left'#2#1#3'Top'#2
-  +#2#6'Action'#7#8'actNuevo'#0#0#11'TToolButton'#11'ToolButton2'#4'Left'#2#24#3
-  +'Top'#2#2#6'Action'#7#8'actAbrir'#0#0#11'TToolButton'#11'ToolButton3'#4'Left'
-  +#2'/'#3'Top'#2#2#6'Action'#7#10'actGuardar'#0#0#11'TToolButton'#11'ToolButto'
-  +'n4'#4'Left'#2'F'#6'Height'#2#22#3'Top'#2#2#7'Caption'#6#11'ToolButton4'#10
-  +'ImageIndex'#2#3#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#9'tlbInicio'
-  +#4'Left'#2'N'#3'Top'#2#2#6'Action'#7#10'actIniciar'#0#0#11'TToolButton'#8'tl'
-  +'bPausa'#4'Left'#2'e'#3'Top'#2#2#6'Action'#7#8'actPausa'#0#0#11'TToolButton'
-  +#7'tlbPaso'#4'Left'#2'|'#3'Top'#2#2#6'Action'#7#7'actPaso'#0#0#11'TToolButto'
-  +'n'#7'tlbAlto'#4'Left'#3#147#0#3'Top'#2#2#6'Action'#7#10'actDetener'#0#0#11
-  +'TToolButton'#11'ToolButton9'#4'Left'#3#170#0#6'Height'#2#22#3'Top'#2#2#7'Ca'
-  +'ption'#6#11'ToolButton9'#10'ImageIndex'#2#7#5'Style'#7#12'tbsSeparator'#0#0
-  +#11'TToolButton'#11'ToolButton8'#4'Left'#3#10#1#6'Height'#2#22#3'Top'#2#2#7
-  +'Caption'#6#11'ToolButton8'#10'ImageIndex'#2#6#5'Style'#7#12'tbsSeparator'#0
-  +#0#11'TToolButton'#12'ToolButton18'#4'Left'#3#18#1#3'Top'#2#2#6'Action'#7#10
-  +'actIncZoom'#0#0#11'TToolButton'#12'ToolButton19'#4'Left'#3')'#1#3'Top'#2#2#6
-  +'Action'#7#10'actDecZoom'#0#0#11'TToolButton'#12'ToolButton21'#4'Left'#3'@'#1
-  +#6'Height'#2#22#3'Top'#2#2#7'Caption'#6#12'ToolButton21'#10'ImageIndex'#2#9#5
-  +'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#13'tlbVisualizar'#4'Left'#3'H'
-  +#1#3'Top'#2#2#6'Action'#7#14'actNoDesplegar'#0#0#11'TToolButton'#12'ToolButt'
-  +'on23'#4'Left'#3'_'#1#6'Height'#2#22#3'Top'#2#2#7'Caption'#6#12'ToolButton23'
-  +#10'ImageIndex'#2#6#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#12'ToolB'
-  +'utton20'#4'Left'#3#176#1#6'Height'#2#22#3'Top'#2#2#7'Caption'#6#12'ToolButt'
-  +'on20'#10'ImageIndex'#2#8#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#11
-  +'ToolButton7'#4'Left'#3#184#1#3'Top'#2#2#6'Action'#7#11'actEntornos'#0#0#11
-  +'TToolButton'#12'ToolButton10'#4'Left'#3#207#1#3'Top'#2#2#6'Action'#7#9'actE'
-  +'ditor'#0#0#11'TToolButton'#11'ToolButton6'#4'Left'#3#230#1#3'Top'#2#2#6'Act'
-  +'ion'#7#10'actAgentes'#0#0#11'TToolButton'#11'ToolButton1'#4'Left'#3#253#1#3
-  +'Top'#2#2#6'Action'#7#12'actSustratos'#0#0#11'TToolButton'#12'ToolButton13'#4
-  +'Left'#3#20#2#3'Top'#2#2#6'Action'#7#13'actAnalizador'#0#0#11'TToolButton'#12
-  +'ToolButton16'#4'Left'#3'+'#2#6'Height'#2#22#3'Top'#2#2#7'Caption'#6#12'Tool'
-  +'Button16'#10'ImageIndex'#2#12#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButto'
-  +'n'#12'ToolButton25'#4'Left'#3'3'#2#3'Top'#2#2#6'Action'#7#13'actExpEntorno'
-  +#0#0#11'TToolButton'#12'ToolButton26'#4'Left'#3'J'#2#6'Height'#2#22#3'Top'#2
-  +#2#7'Caption'#6#12'ToolButton26'#10'ImageIndex'#2#7#5'Style'#7#12'tbsSeparat'
-  +'or'#0#0#11'TToolButton'#12'ToolButton15'#4'Left'#3'R'#2#3'Top'#2#2#6'Action'
-  +#7#8'actAyuda'#0#0#11'TToolButton'#12'ToolButton14'#4'Left'#3'i'#2#6'Height'
-  +#2#22#3'Top'#2#2#7'Caption'#6#12'ToolButton14'#10'ImageIndex'#2#6#5'Style'#7
-  +#12'tbsSeparator'#0#0#11'TToolButton'#12'ToolButton17'#4'Left'#3'q'#2#3'Top'
-  +#2#2#6'Action'#7#8'actSalir'#0#0#5'TEdit'#10'edtRetardo'#4'Left'#3#178#0#6'H'
-  +'eight'#2'$'#4'Hint'#6'HDelay|Specifies the time (in miliconds) of delay bet'
-  +'ween cycle and cycle'#3'Top'#2#2#5'Width'#2'G'#8'TabOrder'#2#1#4'Text'#6#1
-  +'0'#8'OnChange'#7#16'edtRetardoChange'#10'OnKeyPress'#7#18'edtRetardoKeyPres'
-  +'s'#0#0#7'TUpDown'#10'updRetardo'#4'Left'#3#249#0#6'Height'#2#22#3'Top'#2#2#5
-  +'Width'#2#17#9'Associate'#7#10'edtRetardo'#9'Increment'#2#10#3'Max'#3#136#19
-  +#3'Min'#2#0#8'Position'#2#0#8'TabOrder'#2#0#9'Thousands'#8#0#0#9'TComboBox'#9
-  +'cmbEscala'#4'Left'#3'g'#1#6'Height'#2' '#4'Hint'#6#30'Zoom|Specifies the zo'
-  +'om factor'#3'Top'#2#2#5'Width'#2'I'#10'ItemHeight'#2#0#9'ItemIndex'#2#4#13
-  ,'Items.Strings'#1#6#4'20 %'#6#4'40 %'#6#4'60 %'#6#4'80 %'#6#5'100 %'#6#5'120'
-  +' %'#6#5'140 %'#6#5'160 %'#6#5'180 %'#6#5'200 %'#0#9'MaxLength'#4#255#255#0#0
-  +#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#2#4'Text'#6#5'100 %'#8'OnChange'
-  +#7#15'cmbEscalaChange'#0#0#0#10'TScrollBar'#13'scbHorizontal'#22'AnchorSideL'
-  +'eft.Control'#7#9'pnlStatus'#19'AnchorSideLeft.Side'#7#9'asrBottom'#23'Ancho'
-  +'rSideRight.Control'#7#11'scbVertical'#24'AnchorSideBottom.Control'#7#10'Sta'
-  +'tusBar1'#4'Left'#3#177#0#6'Height'#2#17#3'Top'#3#154#1#5'Width'#3')'#2#7'An'
-  +'chors'#11#6'akLeft'#7'akRight'#8'akBottom'#0#8'PageSize'#2#0#8'TabOrder'#2#1
-  +#7'Visible'#8#8'OnChange'#7#19'scbHorizontalChange'#0#0#10'TScrollBar'#11'sc'
-  +'bVertical'#21'AnchorSideTop.Control'#7#8'ToolBar1'#18'AnchorSideTop.Side'#7
-  +#9'asrBottom'#23'AnchorSideRight.Control'#7#5'Owner'#20'AnchorSideRight.Side'
-  +#7#9'asrBottom'#24'AnchorSideBottom.Control'#7#13'scbHorizontal'#4'Left'#3
-  +#218#2#6'Height'#3#129#1#3'Top'#2#25#5'Width'#2#17#7'Anchors'#11#5'akTop'#7
-  +'akRight'#8'akBottom'#0#4'Kind'#7#10'sbVertical'#8'PageSize'#2#0#8'TabOrder'
-  +#2#2#7'Visible'#8#8'OnChange'#7#17'scbVerticalChange'#0#0#6'TPanel'#9'pnlSta'
-  +'tus'#4'Left'#2#0#6'Height'#3#146#1#3'Top'#2#25#5'Width'#3#177#0#5'Align'#7#6
-  +'alLeft'#12'ClientHeight'#3#146#1#11'ClientWidth'#3#177#0#8'TabOrder'#2#3#0#7
-  +'TBitBtn'#11'btnInformar'#4'Left'#2' '#6'Height'#2#25#3'Top'#3'8'#1#5'Width'
-  +#2'q'#6'Action'#7#11'actInformar'#6'Images'#7#10'ImageList1'#10'ImageIndex'#2
-  +#22#8'TabOrder'#2#0#0#0#5'TMemo'#7'memInfo'#4'Left'#2#6#6'Height'#3'('#1#3'T'
-  +'op'#2#7#5'Width'#3#162#0#13'Lines.Strings'#1#6#5'Memo1'#0#10'ScrollBars'#7
-  +#10'ssAutoBoth'#8'TabOrder'#2#1#0#0#0#11'TActionList'#11'ActionList1'#6'Imag'
-  +'es'#7#10'ImageList1'#4'Left'#3#224#0#3'Top'#2'0'#0#7'TAction'#8'actNuevo'#7
-  +'Caption'#6#12'&New project'#7'Enabled'#8#4'Hint'#6'+New project|Create a ne'
-  +'w simulation project'#10'ImageIndex'#2#0#9'OnExecute'#7#15'actNuevoExecute'
-  +#8'ShortCut'#3'N@'#0#0#7'TAction'#8'actAbrir'#7'Caption'#6#17'&Open Environm'
-  +'ent'#4'Hint'#6'(Open environment|Open a environment file'#10'ImageIndex'#2#1
-  +#9'OnExecute'#7#15'actAbrirExecute'#8'ShortCut'#3'O@'#0#0#7'TAction'#10'actG'
-  +'uardar'#7'Caption'#6#13'&Save Project'#7'Enabled'#8#4'Hint'#6'%Save project'
-  +'|Save the current project'#10'ImageIndex'#2#2#9'OnExecute'#7#17'actGuardarE'
-  +'xecute'#8'ShortCut'#3'S@'#0#0#7'TAction'#14'actGuardarComo'#7'Caption'#6#16
-  +'S&ave Project As'#7'Enabled'#8#4'Hint'#6'6Save project as|Save the current '
-  +'project in a new file'#10'ImageIndex'#2#3#9'OnExecute'#7#21'actGuardarComoE'
-  +'xecute'#0#0#7'TAction'#9'actCerrar'#7'Caption'#6#18'C&lose Environment'#4'H'
-  +'int'#6'+Close project|Close the current environment'#10'ImageIndex'#2#4#9'O'
-  +'nExecute'#7#16'actCerrarExecute'#0#0#7'TAction'#8'actSalir'#7'Caption'#6#5
-  +'E&xit'#4'Hint'#6#23'Exit|Leave from Galatea'#10'ImageIndex'#2#5#9'OnExecute'
-  +#7#15'actSalirExecute'#0#0#7'TAction'#10'actIniciar'#7'Caption'#6#4'&Run'#4
-  +'Hint'#6#27'Run|Run the current proyect'#10'ImageIndex'#2#6#9'OnExecute'#7#17
-  +'actIniciarExecute'#8'ShortCut'#2't'#0#0#7'TAction'#8'actPausa'#7'Caption'#6
-  +#6'&Pause'#4'Hint'#6'"Pause|Pause in the current running'#10'ImageIndex'#2#7
-  +#9'OnExecute'#7#15'actPausaExecute'#8'ShortCut'#3'P@'#0#0#7'TAction'#7'actPa'
-  +'so'#7'Caption'#6#10'&Next step'#4'Hint'#6'7Next step|Ejecutes the next step'
-  +' in the current running'#10'ImageIndex'#2#8#9'OnExecute'#7#14'actPasoExecut'
-  +'e'#8'ShortCut'#2'w'#0#0#7'TAction'#10'actDetener'#7'Caption'#6#5'&Stop'#4'H'
-  +'int'#6'!Stop|Stopping the current running'#10'ImageIndex'#2#9#9'OnExecute'#7
-  +#17'actDetenerExecute'#8'ShortCut'#3'q@'#0#0#7'TAction'#9'actEditor'#7'Capti'
-  +'on'#6#13'&Stage Editor'#4'Hint'#6'"Stage Editor|Open the Stage Editor'#10'I'
-  +'mageIndex'#2#10#9'OnExecute'#7#16'actEditorExecute'#0#0#7'TAction'#12'actSu'
-  +'stratos'#7'Caption'#6#17'S&ubstrate Editor'#4'Hint'#6',Substratum Editor|Op'
-  +'en the Substratum Editor'#10'ImageIndex'#2#14#9'OnExecute'#7#19'actSustrato'
-  +'sExecute'#0#0#7'TAction'#10'actAgentes'#7'Caption'#6#13'&Agent Editor'#4'Hi'
-  +'nt'#6#30'Agent Editor|Open Agent Editor'#10'ImageIndex'#2#16#9'OnExecute'#7
-  +#17'actAgentesExecute'#0#0#7'TAction'#19'actOpcionesProyecto'#7'Caption'#6#16
-  +'&Proyect options'#4'Hint'#6'#Project options|Set project options'#10'ImageI'
-  +'ndex'#2#11#9'OnExecute'#7#26'actOpcionesProyectoExecute'#0#0#7'TAction'#12
-  +'actGenerales'#7'Caption'#6#16'&General options'#4'Hint'#6'#General options|'
-  +'Set general options'#10'ImageIndex'#2#12#9'OnExecute'#7#19'actGeneralesExec'
-  +'ute'#0#0#7'TAction'#8'actAyuda'#7'Caption'#6#9'&Contents'#4'Hint'#6'$Help c'
-  +'ontents|Show the help contents'#10'ImageIndex'#2#13#8'ShortCut'#2'p'#0#0#7
-  +'TAction'#9'actAcerca'#7'Caption'#6#14'&About Galatea'#4'Hint'#6#30'About|Sh'
-  +'ow program information'#0#0#7'TAction'#11'actEntornos'#7'Caption'#6#19'&Env'
-  +'ironment Editor'#4'Hint'#6'.Environment Editor|Open the Environment Editor'
-  +#10'ImageIndex'#2#15#9'OnExecute'#7#18'actEntornosExecute'#0#0#7'TAction'#10
-  ,'actDecZoom'#7'Caption'#6#9'Zoom &out'#4'Hint'#6#29'Zoom out|Decrease zoom f'
-  +'actor'#10'ImageIndex'#2#17#9'OnExecute'#7#17'actDecZoomExecute'#8'ShortCut'
-  +#3'O@'#0#0#7'TAction'#10'actIncZoom'#7'Caption'#6#8'Zoom &in'#4'Hint'#6#28'Z'
-  +'oom in|Increase zoom factor'#10'ImageIndex'#2#18#9'OnExecute'#7#17'actIncZo'
-  +'omExecute'#8'ShortCut'#3'I@'#0#0#7'TAction'#14'actNoDesplegar'#7'Caption'#6
-  +#12'Not &display'#4'Hint'#6'aNot display|Enables the execution without displ'
-  +'aying environment mode, accelerating the execution'#10'ImageIndex'#2#19#9'O'
-  +'nExecute'#7#21'actNoDesplegarExecute'#8'ShortCut'#3'D@'#0#0#7'TAction'#13'a'
-  +'ctAnalizador'#7'Caption'#6#22'&Output files analizer'#4'Hint'#6'4Output fil'
-  +'es analizer|Open the output files analizer'#10'ImageIndex'#2#20#9'OnExecute'
-  +#7#20'actAnalizadorExecute'#0#0#7'TAction'#13'actExpEntorno'#7'Caption'#6#26
-  +'Export to environment file'#4'Hint'#6'LExport to environment file|Export si'
-  +'mulation state to a new environment file'#10'ImageIndex'#2#21#0#0#7'TAction'
-  +#11'actInformar'#7'Caption'#6#16'Show information'#4'Hint'#6'@Show informati'
-  +'on|Show information about current simulation state'#10'ImageIndex'#2#22#9'O'
-  +'nExecute'#7#18'actInformarExecute'#0#0#0#9'TMainMenu'#9'MainMenu1'#6'Images'
-  +#7#10'ImageList1'#4'Left'#3#8#1#3'Top'#2'0'#0#9'TMenuItem'#9'Proyecto1'#7'Ca'
-  +'ption'#6#5'&File'#0#9'TMenuItem'#6'Nuevo1'#6'Action'#7#8'actNuevo'#7'OnClic'
-  +'k'#7#15'actNuevoExecute'#0#0#9'TMenuItem'#14'Abrirproyecto1'#6'Action'#7#8
-  +'actAbrir'#7'OnClick'#7#15'actAbrirExecute'#0#0#9'TMenuItem'#16'GuardarProye'
-  +'cto1'#6'Action'#7#10'actGuardar'#7'OnClick'#7#17'actGuardarExecute'#0#0#9'T'
-  +'MenuItem'#20'GuardarProyectocomo1'#6'Action'#7#14'actGuardarComo'#7'OnClick'
-  +#7#21'actGuardarComoExecute'#0#0#9'TMenuItem'#15'CerrarProyecto1'#6'Action'#7
-  +#9'actCerrar'#7'OnClick'#7#16'actCerrarExecute'#0#0#9'TMenuItem'#2'N4'#7'Cap'
-  +'tion'#6#1'-'#0#0#9'TMenuItem'#24'Exporttoenvironmentfile1'#7'Caption'#6#26
-  +'Export to environment file'#4'Hint'#6'MExport to environment file |Export s'
-  +'imulation state to a new environment file'#10'ImageIndex'#2#24#7'OnClick'#7
-  +#20'actExpEntornoExecute'#0#0#9'TMenuItem'#2'N1'#7'Caption'#6#1'-'#0#0#9'TMe'
-  +'nuItem'#2'R1'#7'Caption'#6#8'reciente'#7'Visible'#8#7'OnClick'#7#7'R1Click'
-  +#0#0#9'TMenuItem'#3'R21'#7'Caption'#6#8'reciente'#7'Visible'#8#7'OnClick'#7#8
-  +'R21Click'#0#0#9'TMenuItem'#3'R31'#7'Caption'#6#8'reciente'#7'Visible'#8#7'O'
-  +'nClick'#7#8'R31Click'#0#0#9'TMenuItem'#3'R41'#7'Caption'#6#8'reciente'#7'Vi'
-  +'sible'#8#7'OnClick'#7#8'R41Click'#0#0#9'TMenuItem'#3'R51'#7'Caption'#6#8're'
-  +'ciente'#7'Visible'#8#7'OnClick'#7#8'R51Click'#0#0#9'TMenuItem'#2'N2'#7'Capt'
-  +'ion'#6#1'-'#7'Visible'#8#0#0#9'TMenuItem'#6'Salir1'#6'Action'#7#8'actSalir'
-  +#7'OnClick'#7#15'actSalirExecute'#0#0#0#9'TMenuItem'#9'Ejecucin1'#7'Caption'
-  +#6#4'&Run'#0#9'TMenuItem'#8'Iniciar1'#6'Action'#7#10'actIniciar'#7'OnClick'#7
-  +#17'actIniciarExecute'#0#0#9'TMenuItem'#6'Pausa1'#6'Action'#7#8'actPausa'#7
-  +'OnClick'#7#15'actPausaExecute'#0#0#9'TMenuItem'#14'Pasosiguiente1'#6'Action'
-  +#7#7'actPaso'#7'OnClick'#7#14'actPasoExecute'#0#0#9'TMenuItem'#8'Detener1'#6
-  +'Action'#7#10'actDetener'#7'OnClick'#7#17'actDetenerExecute'#0#0#0#9'TMenuIt'
-  +'em'#5'View1'#7'Caption'#6#5'&View'#0#9'TMenuItem'#7'Zoomin1'#6'Action'#7#10
-  +'actIncZoom'#7'OnClick'#7#17'actIncZoomExecute'#0#0#9'TMenuItem'#8'Zoomout1'
-  +#6'Action'#7#10'actDecZoom'#7'OnClick'#7#17'actDecZoomExecute'#0#0#0#9'TMenu'
-  +'Item'#13'Herramientas1'#7'Caption'#6#6'&Tools'#0#9'TMenuItem'#18'Environmen'
-  +'tEditor1'#6'Action'#7#11'actEntornos'#7'OnClick'#7#18'actEntornosExecute'#0
-  +#0#9'TMenuItem'#19'EditordeEscenarios1'#6'Action'#7#9'actEditor'#7'OnClick'#7
+  'TPF0'#13'TfrmPrincipal'#12'frmPrincipal'#4'Left'#3'/'#1#6'Height'#3#22#2#3'T'
+  +'op'#3'i'#1#5'Width'#3#250#5#13'ActiveControl'#7#10'edtRetardo'#7'Caption'#6
+  +#7'Galatea'#12'ClientHeight'#3#22#2#11'ClientWidth'#3#250#5#13'DesignTimePPI'
+  +#3#192#0#11'Font.Height'#2#234#9'Font.Name'#6#13'MS Sans Serif'#4'Menu'#7#9
+  +'MainMenu1'#7'OnClose'#7#9'FormClose'#12'OnCloseQuery'#7#14'FormCloseQuery'#8
+  +'OnCreate'#7#10'FormCreate'#7'OnPaint'#7#9'FormPaint'#8'OnResize'#7#10'FormR'
+  +'esize'#8'Position'#7#9'poDefault'#8'ShowHint'#9#10'LCLVersion'#6#7'3.8.0.0'
+  +#0#9'TPaintBox'#10'ptbEntorno'#22'AnchorSideLeft.Control'#7#9'pnlStatus'#19
+  +'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#8'ToolBar1'
+  +#18'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#11'scbV'
+  +'ertical'#24'AnchorSideBottom.Control'#7#13'scbHorizontal'#4'Left'#3'b'#1#6
+  +'Height'#3#182#1#3'Top'#2'2'#5'Width'#3#139#4#7'Anchors'#11#5'akTop'#6'akLef'
+  +'t'#7'akRight'#8'akBottom'#0#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'#2#0#6
+  +'Height'#2'!'#3'Top'#3#245#1#5'Width'#3#250#5#6'Panels'#14#1#5'Width'#3' '#3
+  +#0#1#5'Width'#2'd'#0#0#0#0#8'TToolBar'#8'ToolBar1'#6'Cursor'#7#11'crHandPoin'
+  +'t'#4'Left'#2#0#6'Height'#2'2'#3'Top'#2#0#5'Width'#3#250#5#7'Caption'#6#8'To'
+  +'olBar1'#6'Images'#7#10'ImageList1'#8'TabOrder'#2#0#0#11'TToolButton'#11'Too'
+  +'lButton5'#4'Left'#2#1#3'Top'#2#2#6'Action'#7#8'actNuevo'#0#0#11'TToolButton'
+  +#11'ToolButton2'#4'Left'#2'/'#3'Top'#2#2#6'Action'#7#8'actAbrir'#0#0#11'TToo'
+  +'lButton'#11'ToolButton3'#4'Left'#2']'#3'Top'#2#2#6'Action'#7#10'actGuardar'
+  +#0#0#11'TToolButton'#11'ToolButton4'#4'Left'#3#139#0#6'Height'#2','#3'Top'#2
+  +#2#7'Caption'#6#11'ToolButton4'#10'ImageIndex'#2#3#5'Style'#7#12'tbsSeparato'
+  +'r'#0#0#11'TToolButton'#9'tlbInicio'#4'Left'#3#155#0#3'Top'#2#2#6'Action'#7
+  +#10'actIniciar'#0#0#11'TToolButton'#8'tlbPausa'#4'Left'#3#201#0#3'Top'#2#2#6
+  +'Action'#7#8'actPausa'#0#0#11'TToolButton'#7'tlbPaso'#4'Left'#3#247#0#3'Top'
+  +#2#2#6'Action'#7#7'actPaso'#0#0#11'TToolButton'#7'tlbAlto'#4'Left'#3'%'#1#3
+  +'Top'#2#2#6'Action'#7#10'actDetener'#0#0#11'TToolButton'#11'ToolButton9'#4'L'
+  +'eft'#3'S'#1#6'Height'#2','#3'Top'#2#2#7'Caption'#6#11'ToolButton9'#10'Image'
+  +'Index'#2#7#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#11'ToolButton8'#4
+  +'Left'#3#241#1#6'Height'#2','#3'Top'#2#2#7'Caption'#6#11'ToolButton8'#10'Ima'
+  +'geIndex'#2#6#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#12'ToolButton1'
+  +'8'#4'Left'#3'#'#2#3'Top'#2#2#6'Action'#7#10'actIncZoom'#0#0#11'TToolButton'
+  +#12'ToolButton19'#4'Left'#3'Q'#2#3'Top'#2#2#6'Action'#7#10'actDecZoom'#0#0#11
+  +'TToolButton'#12'ToolButton21'#4'Left'#3#127#2#6'Height'#2','#3'Top'#2#2#7'C'
+  +'aption'#6#12'ToolButton21'#10'ImageIndex'#2#9#5'Style'#7#12'tbsSeparator'#0
+  +#0#11'TToolButton'#13'tlbVisualizar'#4'Left'#3#143#2#3'Top'#2#2#6'Action'#7
+  +#14'actNoDesplegar'#0#0#11'TToolButton'#12'ToolButton23'#4'Left'#3#189#2#6'H'
+  +'eight'#2','#3'Top'#2#2#7'Caption'#6#12'ToolButton23'#10'ImageIndex'#2#6#5'S'
+  +'tyle'#7#12'tbsSeparator'#0#0#11'TToolButton'#12'ToolButton20'#4'Left'#3'_'#3
+  +#6'Height'#2','#3'Top'#2#2#7'Caption'#6#12'ToolButton20'#10'ImageIndex'#2#8#5
+  +'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#11'ToolButton7'#4'Left'#3'o'#3
+  +#3'Top'#2#2#6'Action'#7#11'actEntornos'#0#0#11'TToolButton'#12'ToolButton10'
+  +#4'Left'#3#157#3#3'Top'#2#2#6'Action'#7#9'actEditor'#0#0#11'TToolButton'#11
+  +'ToolButton6'#4'Left'#3#203#3#3'Top'#2#2#6'Action'#7#10'actAgentes'#0#0#11'T'
+  +'ToolButton'#11'ToolButton1'#4'Left'#3#249#3#3'Top'#2#2#6'Action'#7#12'actSu'
+  +'stratos'#0#0#11'TToolButton'#12'ToolButton13'#4'Left'#3''''#4#3'Top'#2#2#6
+  +'Action'#7#13'actAnalizador'#0#0#11'TToolButton'#12'ToolButton16'#4'Left'#3
+  +'U'#4#6'Height'#2','#3'Top'#2#2#7'Caption'#6#12'ToolButton16'#10'ImageIndex'
+  +#2#12#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'#12'ToolButton25'#4'Lef'
+  +'t'#3'e'#4#3'Top'#2#2#6'Action'#7#13'actExpEntorno'#0#0#11'TToolButton'#12'T'
+  +'oolButton26'#4'Left'#3#147#4#6'Height'#2','#3'Top'#2#2#7'Caption'#6#12'Tool'
+  +'Button26'#10'ImageIndex'#2#7#5'Style'#7#12'tbsSeparator'#0#0#11'TToolButton'
+  +#12'ToolButton15'#4'Left'#3#163#4#3'Top'#2#2#6'Action'#7#8'actAyuda'#0#0#11
+  +'TToolButton'#12'ToolButton14'#4'Left'#3#209#4#6'Height'#2','#3'Top'#2#2#7'C'
+  +'aption'#6#12'ToolButton14'#10'ImageIndex'#2#6#5'Style'#7#12'tbsSeparator'#0
+  +#0#11'TToolButton'#12'ToolButton17'#4'Left'#3#225#4#3'Top'#2#2#6'Action'#7#8
+  +'actSalir'#0#0#5'TEdit'#10'edtRetardo'#4'Left'#3'c'#1#6'Height'#2'+'#4'Hint'
+  +#6'HDelay|Specifies the time (in miliconds) of delay between cycle and cycle'
+  +#3'Top'#2#2#5'Width'#3#142#0#8'TabOrder'#2#1#4'Text'#6#1'0'#8'OnChange'#7#16
+  +'edtRetardoChange'#10'OnKeyPress'#7#18'edtRetardoKeyPress'#0#0#7'TUpDown'#10
+  +'updRetardo'#4'Left'#3#1#2#6'Height'#2','#3'Top'#2#2#5'Width'#2'"'#9'Associa'
+  +'te'#7#10'edtRetardo'#9'Increment'#2#10#3'Max'#3#136#19#3'Min'#2#0#8'Positio'
+  +'n'#2#0#8'TabOrder'#2#0#9'Thousands'#8#0#0#9'TComboBox'#9'cmbEscala'#4'Left'
+  +#3#205#2#6'Height'#2')'#4'Hint'#6#30'Zoom|Specifies the zoom factor'#3'Top'#2
+  ,#2#5'Width'#3#146#0#10'ItemHeight'#2#0#9'ItemIndex'#2#4#13'Items.Strings'#1#6
+  +#4'20 %'#6#4'40 %'#6#4'60 %'#6#4'80 %'#6#5'100 %'#6#5'120 %'#6#5'140 %'#6#5
+  +'160 %'#6#5'180 %'#6#5'200 %'#0#9'MaxLength'#4#255#255#0#0#5'Style'#7#14'csD'
+  +'ropDownList'#8'TabOrder'#2#2#4'Text'#6#5'100 %'#8'OnChange'#7#15'cmbEscalaC'
+  +'hange'#0#0#0#10'TScrollBar'#13'scbHorizontal'#22'AnchorSideLeft.Control'#7#9
+  +'pnlStatus'#19'AnchorSideLeft.Side'#7#9'asrBottom'#23'AnchorSideRight.Contro'
+  +'l'#7#11'scbVertical'#24'AnchorSideBottom.Control'#7#10'StatusBar1'#4'Left'#3
+  +'b'#1#6'Height'#2#13#3'Top'#3#232#1#5'Width'#3#139#4#7'Anchors'#11#6'akLeft'
+  +#7'akRight'#8'akBottom'#0#8'PageSize'#2#0#8'TabOrder'#2#1#7'Visible'#8#8'OnC'
+  +'hange'#7#19'scbHorizontalChange'#0#0#10'TScrollBar'#11'scbVertical'#21'Anch'
+  +'orSideTop.Control'#7#8'ToolBar1'#18'AnchorSideTop.Side'#7#9'asrBottom'#23'A'
+  +'nchorSideRight.Control'#7#5'Owner'#20'AnchorSideRight.Side'#7#9'asrBottom'
+  +#24'AnchorSideBottom.Control'#7#13'scbHorizontal'#4'Left'#3#237#5#6'Height'#3
+  +#182#1#3'Top'#2'2'#5'Width'#2#13#7'Anchors'#11#5'akTop'#7'akRight'#8'akBotto'
+  +'m'#0#4'Kind'#7#10'sbVertical'#8'PageSize'#2#0#8'TabOrder'#2#2#7'Visible'#8#8
+  +'OnChange'#7#17'scbVerticalChange'#0#0#6'TPanel'#9'pnlStatus'#4'Left'#2#0#6
+  +'Height'#3#195#1#3'Top'#2'2'#5'Width'#3'b'#1#5'Align'#7#6'alLeft'#12'ClientH'
+  +'eight'#3#195#1#11'ClientWidth'#3'b'#1#8'TabOrder'#2#3#0#7'TBitBtn'#11'btnIn'
+  +'formar'#4'Left'#2'@'#6'Height'#2'2'#3'Top'#3'p'#2#5'Width'#3#226#0#6'Action'
+  +#7#11'actInformar'#6'Images'#7#10'ImageList1'#10'ImageIndex'#2#22#8'TabOrder'
+  +#2#0#0#0#5'TMemo'#7'memInfo'#4'Left'#2#12#6'Height'#3'P'#2#3'Top'#2#14#5'Wid'
+  +'th'#3'D'#1#13'Lines.Strings'#1#6#5'Memo1'#0#10'ScrollBars'#7#10'ssAutoBoth'
+  +#8'TabOrder'#2#1#0#0#0#11'TActionList'#11'ActionList1'#6'Images'#7#10'ImageL'
+  +'ist1'#4'Left'#3#192#1#3'Top'#2'`'#0#7'TAction'#8'actNuevo'#7'Caption'#6#12
+  +'&New project'#7'Enabled'#8#4'Hint'#6'+New project|Create a new simulation p'
+  +'roject'#10'ImageIndex'#2#0#9'OnExecute'#7#15'actNuevoExecute'#8'ShortCut'#3
+  +'N@'#0#0#7'TAction'#8'actAbrir'#7'Caption'#6#17'&Open Environment'#4'Hint'#6
+  +'(Open environment|Open a environment file'#10'ImageIndex'#2#1#9'OnExecute'#7
+  +#15'actAbrirExecute'#8'ShortCut'#3'O@'#0#0#7'TAction'#10'actGuardar'#7'Capti'
+  +'on'#6#13'&Save Project'#7'Enabled'#8#4'Hint'#6'%Save project|Save the curre'
+  +'nt project'#10'ImageIndex'#2#2#9'OnExecute'#7#17'actGuardarExecute'#8'Short'
+  +'Cut'#3'S@'#0#0#7'TAction'#14'actGuardarComo'#7'Caption'#6#16'S&ave Project '
+  +'As'#7'Enabled'#8#4'Hint'#6'6Save project as|Save the current project in a n'
+  +'ew file'#10'ImageIndex'#2#3#9'OnExecute'#7#21'actGuardarComoExecute'#0#0#7
+  +'TAction'#9'actCerrar'#7'Caption'#6#18'C&lose Environment'#4'Hint'#6'+Close '
+  +'project|Close the current environment'#10'ImageIndex'#2#4#9'OnExecute'#7#16
+  +'actCerrarExecute'#0#0#7'TAction'#8'actSalir'#7'Caption'#6#5'E&xit'#4'Hint'#6
+  +#23'Exit|Leave from Galatea'#10'ImageIndex'#2#5#9'OnExecute'#7#15'actSalirEx'
+  +'ecute'#0#0#7'TAction'#10'actIniciar'#7'Caption'#6#4'&Run'#4'Hint'#6#27'Run|'
+  +'Run the current proyect'#10'ImageIndex'#2#6#9'OnExecute'#7#17'actIniciarExe'
+  +'cute'#8'ShortCut'#2't'#0#0#7'TAction'#8'actPausa'#7'Caption'#6#6'&Pause'#4
+  +'Hint'#6'"Pause|Pause in the current running'#10'ImageIndex'#2#7#9'OnExecute'
+  +#7#15'actPausaExecute'#8'ShortCut'#3'P@'#0#0#7'TAction'#7'actPaso'#7'Caption'
+  +#6#10'&Next step'#4'Hint'#6'7Next step|Ejecutes the next step in the current'
+  +' running'#10'ImageIndex'#2#8#9'OnExecute'#7#14'actPasoExecute'#8'ShortCut'#2
+  +'w'#0#0#7'TAction'#10'actDetener'#7'Caption'#6#5'&Stop'#4'Hint'#6'!Stop|Stop'
+  +'ping the current running'#10'ImageIndex'#2#9#9'OnExecute'#7#17'actDetenerEx'
+  +'ecute'#8'ShortCut'#3'q@'#0#0#7'TAction'#9'actEditor'#7'Caption'#6#13'&Stage'
+  +' Editor'#4'Hint'#6'"Stage Editor|Open the Stage Editor'#10'ImageIndex'#2#10
+  +#9'OnExecute'#7#16'actEditorExecute'#0#0#7'TAction'#12'actSustratos'#7'Capti'
+  +'on'#6#17'S&ubstrate Editor'#4'Hint'#6',Substratum Editor|Open the Substratu'
+  +'m Editor'#10'ImageIndex'#2#14#9'OnExecute'#7#19'actSustratosExecute'#0#0#7
+  +'TAction'#10'actAgentes'#7'Caption'#6#13'&Agent Editor'#4'Hint'#6#30'Agent E'
+  +'ditor|Open Agent Editor'#10'ImageIndex'#2#16#9'OnExecute'#7#17'actAgentesEx'
+  +'ecute'#0#0#7'TAction'#19'actOpcionesProyecto'#7'Caption'#6#16'&Proyect opti'
+  +'ons'#4'Hint'#6'#Project options|Set project options'#10'ImageIndex'#2#11#9
+  +'OnExecute'#7#26'actOpcionesProyectoExecute'#0#0#7'TAction'#12'actGenerales'
+  +#7'Caption'#6#16'&General options'#4'Hint'#6'#General options|Set general op'
+  +'tions'#10'ImageIndex'#2#12#9'OnExecute'#7#19'actGeneralesExecute'#0#0#7'TAc'
+  +'tion'#8'actAyuda'#7'Caption'#6#9'&Contents'#4'Hint'#6'$Help contents|Show t'
+  +'he help contents'#10'ImageIndex'#2#13#8'ShortCut'#2'p'#0#0#7'TAction'#9'act'
+  +'Acerca'#7'Caption'#6#14'&About Galatea'#4'Hint'#6#30'About|Show program inf'
+  +'ormation'#0#0#7'TAction'#11'actEntornos'#7'Caption'#6#19'&Environment Edito'
+  +'r'#4'Hint'#6'.Environment Editor|Open the Environment Editor'#10'ImageIndex'
+  ,#2#15#9'OnExecute'#7#18'actEntornosExecute'#0#0#7'TAction'#10'actDecZoom'#7
+  +'Caption'#6#9'Zoom &out'#4'Hint'#6#29'Zoom out|Decrease zoom factor'#10'Imag'
+  +'eIndex'#2#17#9'OnExecute'#7#17'actDecZoomExecute'#8'ShortCut'#3'O@'#0#0#7'T'
+  +'Action'#10'actIncZoom'#7'Caption'#6#8'Zoom &in'#4'Hint'#6#28'Zoom in|Increa'
+  +'se zoom factor'#10'ImageIndex'#2#18#9'OnExecute'#7#17'actIncZoomExecute'#8
+  +'ShortCut'#3'I@'#0#0#7'TAction'#14'actNoDesplegar'#7'Caption'#6#12'Not &disp'
+  +'lay'#4'Hint'#6'aNot display|Enables the execution without displaying enviro'
+  +'nment mode, accelerating the execution'#10'ImageIndex'#2#19#9'OnExecute'#7
+  +#21'actNoDesplegarExecute'#8'ShortCut'#3'D@'#0#0#7'TAction'#13'actAnalizador'
+  +#7'Caption'#6#22'&Output files analizer'#4'Hint'#6'4Output files analizer|Op'
+  +'en the output files analizer'#10'ImageIndex'#2#20#9'OnExecute'#7#20'actAnal'
+  +'izadorExecute'#0#0#7'TAction'#13'actExpEntorno'#7'Caption'#6#26'Export to e'
+  +'nvironment file'#4'Hint'#6'LExport to environment file|Export simulation st'
+  +'ate to a new environment file'#10'ImageIndex'#2#21#0#0#7'TAction'#11'actInf'
+  +'ormar'#7'Caption'#6#16'Show information'#4'Hint'#6'@Show information|Show i'
+  +'nformation about current simulation state'#10'ImageIndex'#2#22#9'OnExecute'
+  +#7#18'actInformarExecute'#0#0#0#9'TMainMenu'#9'MainMenu1'#6'Images'#7#10'Ima'
+  +'geList1'#4'Left'#3#16#2#3'Top'#2'`'#0#9'TMenuItem'#9'Proyecto1'#7'Caption'#6
+  +#5'&File'#0#9'TMenuItem'#6'Nuevo1'#6'Action'#7#8'actNuevo'#7'OnClick'#7#15'a'
+  +'ctNuevoExecute'#0#0#9'TMenuItem'#14'Abrirproyecto1'#6'Action'#7#8'actAbrir'
+  +#7'OnClick'#7#15'actAbrirExecute'#0#0#9'TMenuItem'#16'GuardarProyecto1'#6'Ac'
+  +'tion'#7#10'actGuardar'#7'OnClick'#7#17'actGuardarExecute'#0#0#9'TMenuItem'
+  +#20'GuardarProyectocomo1'#6'Action'#7#14'actGuardarComo'#7'OnClick'#7#21'act'
+  +'GuardarComoExecute'#0#0#9'TMenuItem'#15'CerrarProyecto1'#6'Action'#7#9'actC'
+  +'errar'#7'OnClick'#7#16'actCerrarExecute'#0#0#9'TMenuItem'#2'N4'#7'Caption'#6
+  +#1'-'#0#0#9'TMenuItem'#24'Exporttoenvironmentfile1'#7'Caption'#6#26'Export t'
+  +'o environment file'#4'Hint'#6'MExport to environment file |Export simulatio'
+  +'n state to a new environment file'#10'ImageIndex'#2#24#7'OnClick'#7#20'actE'
+  +'xpEntornoExecute'#0#0#9'TMenuItem'#2'N1'#7'Caption'#6#1'-'#0#0#9'TMenuItem'
+  +#2'R1'#7'Caption'#6#8'reciente'#7'Visible'#8#7'OnClick'#7#7'R1Click'#0#0#9'T'
+  +'MenuItem'#3'R21'#7'Caption'#6#8'reciente'#7'Visible'#8#7'OnClick'#7#8'R21Cl'
+  +'ick'#0#0#9'TMenuItem'#3'R31'#7'Caption'#6#8'reciente'#7'Visible'#8#7'OnClic'
+  +'k'#7#8'R31Click'#0#0#9'TMenuItem'#3'R41'#7'Caption'#6#8'reciente'#7'Visible'
+  +#8#7'OnClick'#7#8'R41Click'#0#0#9'TMenuItem'#3'R51'#7'Caption'#6#8'reciente'
+  +#7'Visible'#8#7'OnClick'#7#8'R51Click'#0#0#9'TMenuItem'#2'N2'#7'Caption'#6#1
+  +'-'#7'Visible'#8#0#0#9'TMenuItem'#6'Salir1'#6'Action'#7#8'actSalir'#7'OnClic'
+  +'k'#7#15'actSalirExecute'#0#0#0#9'TMenuItem'#9'Ejecucin1'#7'Caption'#6#4'&Ru'
+  +'n'#0#9'TMenuItem'#8'Iniciar1'#6'Action'#7#10'actIniciar'#7'OnClick'#7#17'ac'
+  +'tIniciarExecute'#0#0#9'TMenuItem'#6'Pausa1'#6'Action'#7#8'actPausa'#7'OnCli'
+  +'ck'#7#15'actPausaExecute'#0#0#9'TMenuItem'#14'Pasosiguiente1'#6'Action'#7#7
+  +'actPaso'#7'OnClick'#7#14'actPasoExecute'#0#0#9'TMenuItem'#8'Detener1'#6'Act'
+  +'ion'#7#10'actDetener'#7'OnClick'#7#17'actDetenerExecute'#0#0#0#9'TMenuItem'
+  +#5'View1'#7'Caption'#6#5'&View'#0#9'TMenuItem'#7'Zoomin1'#6'Action'#7#10'act'
+  +'IncZoom'#7'OnClick'#7#17'actIncZoomExecute'#0#0#9'TMenuItem'#8'Zoomout1'#6
+  +'Action'#7#10'actDecZoom'#7'OnClick'#7#17'actDecZoomExecute'#0#0#0#9'TMenuIt'
+  +'em'#13'Herramientas1'#7'Caption'#6#6'&Tools'#0#9'TMenuItem'#18'EnvironmentE'
+  +'ditor1'#6'Action'#7#11'actEntornos'#7'OnClick'#7#18'actEntornosExecute'#0#0
+  +#9'TMenuItem'#19'EditordeEscenarios1'#6'Action'#7#9'actEditor'#7'OnClick'#7
   +#16'actEditorExecute'#0#0#9'TMenuItem'#12'Agentstypes1'#6'Action'#7#10'actAg'
   +'entes'#7'OnClick'#7#17'actAgentesExecute'#0#0#9'TMenuItem'#17'SubstratumEdi'
   +'tor1'#6'Action'#7#12'actSustratos'#7'OnClick'#7#19'actSustratosExecute'#0#0
@@ -191,12 +192,12 @@ LazarusResources.Add('TfrmPrincipal','FORMDATA',[
   +'tem'#16'AcercadeGalatea1'#6'Action'#7#9'actAcerca'#0#0#0#0#11'TOpenDialog'
   +#15'dlgAbreProyecto'#5'Title'#6#16'Open Environment'#6'Filter'#6#25'Galatea '
   +'environment|*.ngl'#7'Options'#11#14'ofHideReadOnly'#15'ofPathMustExist'#15
-  +'ofFileMustExist'#14'ofEnableSizing'#0#4'Left'#3'X'#1#3'Top'#2'0'#0#0#11'TSa'
-  +'veDialog'#18'dlgGuardarProyecto'#5'Title'#6#24'Guardar Proyecto como...'#6
-  ,'Filter'#6'!Proyecto de Galatea (*.pgl)|*.pgl'#7'Options'#11#17'ofOverwriteP'
+  +'ofFileMustExist'#14'ofEnableSizing'#0#4'Left'#3#176#2#3'Top'#2'`'#0#0#11'TS'
+  ,'aveDialog'#18'dlgGuardarProyecto'#5'Title'#6#24'Guardar Proyecto como...'#6
+  +'Filter'#6'!Proyecto de Galatea (*.pgl)|*.pgl'#7'Options'#11#17'ofOverwriteP'
   +'rompt'#14'ofHideReadOnly'#15'ofPathMustExist'#14'ofEnableSizing'#0#4'Left'#3
-  +#128#1#3'Top'#2'0'#0#0#10'TImageList'#10'ImageList1'#7'BkColor'#7#6'clForm'#4
-  +'Left'#3#168#1#3'Top'#2'0'#6'Bitmap'#10#24#6#0#0'Lz'#23#0#0#0#16#0#0#0#16#0#0
+  +#0#3#3'Top'#2'`'#0#0#10'TImageList'#10'ImageList1'#7'BkColor'#7#6'clForm'#4
+  +'Left'#3'P'#3#3'Top'#2'`'#6'Bitmap'#10#24#6#0#0'Lz'#23#0#0#0#16#0#0#0#16#0#0
   +#0#2#6#0#0#0#0#0#0'x'#218#237'\[r'#235'0'#8'e'#223#249#201#198':'#211#157'qk'
   +#199'r'#0#241#148#156#235#166#177':'#154'4'#146#14' '#4'z'#153#24#16#17#172
   +#228#213#209#250#229'Sk[)'#127'|'#183'rLs'#175#229#137#209#240#177'&~'#167#19
@@ -256,8 +257,8 @@ LazarusResources.Add('TfrmPrincipal','FORMDATA',[
   +#134#182#15#154#175'$'#198'v'#198#127#187';'#143'b'#220'O'#135'U'#158'7A'#255
   +'>'#14#148'x'#245'9'#151#248#174#189#27#196#228#171#252#254#220'x7H'#255#236
   +'L'#225#235#188's'#2#172'~c'#240#14#11#138'W'#249#7'4d<'#138#170';'#133#6#216
-  +#191#199#239't'#135#10'.'#248'='#190'''k'#196#191#20#11#238#225'Ay'#15#129
-  ,#241#255'K'#249#27'}~)'#255#255#30#135#236#204'[h'#213#209#253' Yg'#195#245
+  ,#191#199#239't'#135#10'.'#248'='#190'''k'#196#191#20#11#238#225'Ay'#15#129
+  +#241#255'K'#249#27'}~)'#255#255#30#135#236#204'[h'#213#209#253' Yg'#195#245
   +#159#207#131'l'#15#220#175'O'#207#245'W'#173'/'#224#229#250#139#192#229'W'
   +#229'cx'#236#215'@'#130#247#214#253'.'#6#207#197''''#227#9#5#30#1#11'xa{e'
   +#254#130#6'['#191#199#248#215#240#226#153#248'='#179#246#197#250'g'#247#255
@@ -268,5 +269,5 @@ LazarusResources.Add('TfrmPrincipal','FORMDATA',[
   +#27#227#165#0#0#11'TSaveDialog'#17'dlgGuardarEntorno'#5'Title'#6#24'Save Gal'
   +'atea Environment'#6'Filter'#6'!Galatea Environment (*.ngl)|*.ngl'#7'Options'
   +#11#17'ofOverwritePrompt'#14'ofHideReadOnly'#15'ofPathMustExist'#14'ofEnable'
-  +'Sizing'#0#4'Left'#3'@'#1#3'Top'#2'x'#0#0#0
+  +'Sizing'#0#4'Left'#3#128#2#3'Top'#3#240#0#0#0#0
 ]);

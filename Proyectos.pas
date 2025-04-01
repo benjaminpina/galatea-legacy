@@ -286,6 +286,8 @@ begin
   begin
     Inc(Entorno.Ciclos);
     Itera;
+    if Visualizar then
+       Entorno.Despliega;
     {$IFDEF LCL}
     Application.HandleMessage;
     Application.ProcessMessages;
