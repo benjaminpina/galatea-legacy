@@ -36,7 +36,7 @@
       <Unit0>
         <Filename Value="Galatea.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit0>
       <Unit1>
         <Filename Value="Principal.pas"/>
@@ -45,14 +45,15 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="1345"/>
-        <CursorPos X="32" Y="1357"/>
-        <UsageCount Value="40"/>
+        <TopLine Value="313"/>
+        <CursorPos X="23" Y="362"/>
+        <UsageCount Value="41"/>
         <Bookmarks Count="2">
           <Item0 X="3" Y="436" ID="1"/>
           <Item1 X="3" Y="392" ID="2"/>
         </Bookmarks>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="OpcionesProyecto.pas"/>
@@ -63,7 +64,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos X="20" Y="38"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit2>
       <Unit3>
         <Filename Value="SeleccionaEntorno.pas"/>
@@ -72,7 +73,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="3" Y="10"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit3>
       <Unit4>
         <Filename Value="NuevoProyecto.pas"/>
@@ -81,7 +82,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="3" Y="8"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit4>
       <Unit5>
         <Filename Value="Generales.pas"/>
@@ -91,7 +92,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="71"/>
         <CursorPos X="14" Y="83"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit5>
       <Unit6>
         <Filename Value="BuscarCarpeta.pas"/>
@@ -100,14 +101,15 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="31" Y="10"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit6>
       <Unit7>
         <Filename Value="Proyectos.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="89"/>
-        <CursorPos X="5" Y="96"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="257"/>
+        <CursorPos X="41" Y="287"/>
         <UsageCount Value="16"/>
+        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="Escenarios.pas"/>
@@ -123,9 +125,9 @@
       </Unit9>
       <Unit10>
         <Filename Value="Comunes.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="84"/>
-        <CursorPos X="18" Y="93"/>
+        <CursorPos X="26" Y="94"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -152,7 +154,11 @@
       </Unit13>
       <Unit14>
         <Filename Value="Agentes.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1881"/>
+        <CursorPos X="5" Y="1881"/>
         <UsageCount Value="11"/>
+        <Loaded Value="True"/>
       </Unit14>
       <Unit15>
         <Filename Value="Carruseles.pas"/>
@@ -212,7 +218,7 @@
         <UsageCount Value="10"/>
       </Unit23>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="19" HistoryIndex="18">
       <Position1>
         <Filename Value="Principal.pas"/>
         <Caret Line="416" Column="27" TopLine="392"/>
@@ -225,6 +231,70 @@
         <Filename Value="Principal.pas"/>
         <Caret Line="1339" Column="49" TopLine="1337"/>
       </Position3>
+      <Position4>
+        <Filename Value="Principal.pas"/>
+        <Caret Line="1357" Column="32" TopLine="1306"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Principal.pas"/>
+        <Caret Line="759" Column="3" TopLine="757"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="72" Column="15" TopLine="40"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="290" Column="29" TopLine="281"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="42" Column="17" TopLine="9"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="189" Column="6" TopLine="173"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Agentes.pas"/>
+        <Caret Line="352" Column="17" TopLine="318"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Agentes.pas"/>
+        <Caret Line="342" Column="20" TopLine="318"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Agentes.pas"/>
+        <Caret Line="1630" Column="3" TopLine="1628"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Principal.pas"/>
+        <Caret Line="759" Column="3" TopLine="757"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="72" Column="20" TopLine="40"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="295" Column="16" TopLine="281"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="97" Column="14" TopLine="70"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Proyectos.pas"/>
+        <Caret Line="287" Column="41" TopLine="257"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Principal.pas"/>
+        <Caret Line="326" Column="4" TopLine="293"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Principal.pas"/>
+        <Caret Line="1175" Column="4" TopLine="1142"/>
+      </Position19>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>

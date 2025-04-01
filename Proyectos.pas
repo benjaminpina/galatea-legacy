@@ -94,7 +94,7 @@ type
 implementation
 
 uses
-  {$IFDEF Lazarus}Forms, {$ENDIF} SysUtils,
+  {$IFDEF LCL}Forms, {$ENDIF} SysUtils,
   	FuncElementosCadenas;
 
 { TProyecto }
@@ -286,7 +286,7 @@ begin
   begin
     Inc(Entorno.Ciclos);
     Itera;
-    {$IFDEF Lazarus}
+    {$IFDEF LCL}
     Application.HandleMessage;
     Application.ProcessMessages;
     {$ENDIF} 
